@@ -1,35 +1,150 @@
+/* .app {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  column-gap: 10;
+
+  justify-items: center;
+  align-items: start;
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  padding-top: 50px;
+} */
+
+/*  moved the above back to App.css  */
+
+
+/* with 'card' alone this will be encumpasing everythin about the cards */
 .card {
-    position: relative;
-    width: 300px;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
-    margin: 20px;
-    /* display: flex; */
-  }
+  position: relative;
+  /* making the individual container slender or bigger */
+  width: 300px;  
+  padding: 20px;
+  /* corners are curved */
+  border-radius: 20px;
+  text-align: center;
+
+  /* the below css didn't work..... find out more deatails */
+  /* grid-template-areas: card; */
+}
+
+.card-image {
+  /* commenting the below does not change anything....why? */
+  width: 100%;
+  /* this adds curves to the actual image */
+  border-radius: 20px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.card-description {
+  font-size: 1em;
+  margin-top: 10px;
+  color: #666;
+}
+
+.card-arrow {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 1.5em;
+  color: #333;
+  cursor: pointer;
+}
+
+
+/* then this will change the styles of the cards indivitually, well hopefully */
+/* Card 1 Specific Styles */
+.card1 .card-image {
+  position: relative;
+  top: 10px;
+  left: -110px;  
+  /* the left is shifting the chair out of the box */
+  width: 350px; /* Size of pic */
+  height: auto; /*I don't want the image to move anything around it so the property will maintaing that. */
   
-  .card-image {
-    width: 100%;
-    border-radius: 20px;
-  }
-  
-  .card-title {
-    font-size: 1.5em;
-    margin-top: 10px;
-  }
-  
-  .card-description {
-    font-size: 1em;
-    margin-top: 10px;
-    color: #666;
-  }
-  
-  .card-arrow {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    font-size: 1.5em;
-    color: #333;
-    cursor: pointer;
-  }
-  
+}
+
+.card1 .card-title {
+  position: relative;
+  top: 15px;
+  left: 10px;
+}
+
+.card1 .card-description {
+  position: relative;
+  top: 20px;
+  left: 5px;
+}
+git add .
+git commit -m "07/10/2024 update"
+git push
+
+
+/*added card arrow property I'm removing arrow from description styles the   */
+.card1 .card-arrow {
+  position: relative;
+  top: 20px;
+  left: 5px;
+}
+
+/* Card 2 Specific Styles */
+.card2 .card-image {
+  position: relative;
+  top: 20px;
+  right: 47px;
+  /* the left is shifting the chair out of the box */
+  width: 420px; /* Size of pic */
+  height: auto; /*I don't want the image to move anything around it so the property will maintaing that. */
+}
+
+.card2 .card-title {
+  position: relative;
+  top: 25px;
+  right: 10px;
+}
+
+.card2 .card-description {
+  position: relative;
+  top: 30px;
+  right: 5px;
+}
+
+/*added card arrow property I'm removing arrow from description styles the   */
+.card2 .card-arrow {
+  position: relative;
+  top: 20px;
+  left: 5px;
+}
+
+/* Card 3 Specific Styles */
+.card3 .card-image {
+  position: relative;
+  top: 30px;
+  left: 55px;
+  /* the left is shifting the chair out of the box */
+  width: 350px; /* Size of pic */
+  height: auto; /*I don't want the image to move anything around it so the property will maintaing that. */
+}
+
+.card3 .card-title {
+  position: relative;
+  top: 35px;
+  left: 20px;
+}
+
+.card3 .card-description {
+  position: relative;
+  top: 40px;
+  left: 15px;
+}
+
+/*added card arrow property I'm removing arrow from description styles the   */
+.card3 .card-arrow {
+  position: relative;
+  top: 20px;
+  left: 5px;
+}
