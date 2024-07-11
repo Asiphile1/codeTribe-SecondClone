@@ -29,9 +29,9 @@
 }
 
 .card-image {
-  /* commenting the below does not change anything....why? */
+  /* commenting the below out does not change anything....why? */
   width: 100%;
-  /* this adds curves to the actual image */
+  /* this adds curves to the actual image not container with the color background*/
   border-radius: 20px;
 }
 
@@ -79,9 +79,7 @@
   top: 20px;
   left: 5px;
 }
-git add .
-git commit -m "07/10/2024 update"
-git push
+
 
 
 /*added card arrow property I'm removing arrow from description styles the   */
@@ -89,6 +87,12 @@ git push
   position: relative;
   top: 20px;
   left: 5px;
+}
+
+/* added this at the end  */
+.card1 {
+  left:30px;
+  bottom:80px;
 }
 
 /* Card 2 Specific Styles */
@@ -120,6 +124,7 @@ git push
   left: 5px;
 }
 
+
 /* Card 3 Specific Styles */
 .card3 .card-image {
   position: relative;
@@ -148,3 +153,25 @@ git push
   top: 20px;
   left: 5px;
 }
+
+/* added this at the end  */
+.card3 {
+  right: 50px;
+  top:140px;
+}
+
+
+
+/* INITIALIZING 
+git init
+git add .
+
+*/
+
+
+/* UPDATING 
+git add .git
+git commit -m "08
+/10/2024 update"
+git push */
+
