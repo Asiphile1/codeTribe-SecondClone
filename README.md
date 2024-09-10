@@ -122,6 +122,5 @@ Copy code
 
 This project was a great learning experience in building a modern product card layout with HTML and CSS. It helped in refining CSS layout skills, practicing responsive design, and working with colors and typography to match a provided UI design.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![f618386f6e280d9be9b4d71e898eb351](https://github.com/user-attachments/assets/b41ddebd-cf02-4923-b644-421843604feb)
