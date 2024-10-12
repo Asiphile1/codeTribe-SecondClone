@@ -6,7 +6,8 @@ This project involves creating a Stylish Chair, Lightings, and Round Shape Couch
 
 ## Screenshot:
 
-The provided design (screenshot attached) displays a product grid with three sections showcasing a stylish chair, lighting options, and a round couch. Each section includes a product image, title, description, and an arrow button.
+The provided design displays a product grid with three sections showcasing a stylish chair, lighting options, and a round couch. Each section includes a product image, title, description, and an arrow button.
+![f618386f6e280d9be9b4d71e898eb351](https://github.com/user-attachments/assets/b41ddebd-cf02-4923-b644-421843604feb)
 
 ## Objective
 
@@ -123,4 +124,4 @@ Copy code
 This project was a great learning experience in building a modern product card layout with HTML and CSS. It helped in refining CSS layout skills, practicing responsive design, and working with colors and typography to match a provided UI design.
 
 
-![f618386f6e280d9be9b4d71e898eb351](https://github.com/user-attachments/assets/b41ddebd-cf02-4923-b644-421843604feb)
+
